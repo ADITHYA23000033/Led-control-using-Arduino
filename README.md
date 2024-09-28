@@ -1,8 +1,8 @@
-# Led-control-using-Arduino
-```
-NAME:ADITHYA V
-REG NO:212223110001
-```
+## NAME:ADITHYA V
+## REG NO:212223110001
+
+# EX-01 Led control using Arduino
+
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -29,7 +29,6 @@ Step 9 Press the push button and observe the LED's behavior </br>
 ## THEORY
 
 ### Introduction 
-
 LED pushbutton code is a program written for the Arduino UNO microcontroller that controls an LED using a pushbutton. When the pushbutton is pressed, the code reads the state of the button and turns the LED on or off accordingly.
 
 ### Arduino 
@@ -45,6 +44,7 @@ The pullup resistor is nothing but a high-value resistor connecting to the Ardui
 
 ### Led
 LED is a semiconductor light source. It consists of a PN Junction Diode and when voltage is applied to the LED, electrons and holes recombine in the PN Junction and release energy in the form of light (Photons).The light emitted by an LED is usually monochromatic i.e. of single color and the color is dependent on the energy band gap of the semiconductor.Light Emitting Diodes can be manufactured to emit all the wavelengths of visible spectrum i.e. from Red (620nm to 750nm) to blue – violet (380nm to 490nm).The electrical symbol of an LED is similar to that of a PN Junction Diode
+
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/d7a70bbf-453c-47af-9215-9a6e252f9503)
 
 ### Working 
@@ -52,7 +52,7 @@ In the setup function, the pin mode for the LED and pushbutton pins are set usin
 
 ![image](https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/71547910/8b4930b4-4040-46ab-9e2e-d3277559ae6f)
 
-### Applications
+## Applications
 Interactive Light Display </br>
 Educational Game for Children </br>
 Home Automation </br>
@@ -80,9 +80,11 @@ digitalWrite(ledPin, HIGH);
 }
 }
 ```
-
 ## OUTPUT
+## ON
 ![Screenshot 2024-09-10 085908](https://github.com/user-attachments/assets/31595ef1-e833-4df2-903d-dc3192711270)
+
+## OFF
 ![Screenshot 2024-09-10 085923](https://github.com/user-attachments/assets/32a8e066-6136-4248-814f-dc5a089be4ec)
 
 ## RESULT
